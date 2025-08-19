@@ -12,10 +12,17 @@ printf("Enter the value of b : ");
 scanf("%d" , &b);
 
 if(a <= b){
-printf("a is smallest.\n");
+printf("%d(a) is smallest.\n",a);
 }
 else{
-printf("b is smallest.\n");
+printf("%d(b) is smallest.\n",b);
+}
+
+if(a >= b){
+  printf("%d(a) is largest.\n",a);
+}
+else{
+  printf("%d(b) is largest.\n",b);
 }
 
 return 0;
