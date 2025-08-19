@@ -16,6 +16,10 @@ else if(gs > 5000){
 allowance = 0.07 * gs;
 deduction = 0.02 * gs;
 }
+else{
+allowance = 0.05* gs;
+deduction = 0.02* gs;
+}
 
 ns = gs + allowance - deduction;
 
